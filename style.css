@@ -1,0 +1,283 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+
+body {
+  position: relative;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  color: black;
+}
+
+.navbar-brand,
+.nav-link {
+  color: white;
+}
+
+#mission-section p {
+  color: black;
+}
+
+#hero-section {
+  color: white;
+  padding: 100px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .7)), url("img/myOffice.jpg");
+  background-position: center, center;
+  background-size: cover, cover;
+  text-shadow: 2px 2px rgba(0, 0, 0, .5);
+  text-align: center;
+}
+
+#hero-section p {
+  /* margin-top: 20px; */
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+#hero-section img {
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  margin-bottom: 20px;
+  box-shadow: 10px 5px 15px black;
+}
+
+#mission-section {
+  padding: 20px;
+  background-color: #cccccc;
+}
+
+#mission-section img {
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#mission-section h4 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#skills-section {
+  background-color: #e0e0eb;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+#skills-section img {
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#skills-section h5 {
+  color: black;
+}
+
+[alt="BootStrap"] {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.hoverSkill:hover {
+  filter: drop-shadow(0 0 0.55rem rgb(0, 204, 68));
+}
+
+.hoverproject:hover {
+  filter: drop-shadow(0 0 0.55rem rgb(15, 81, 247));
+}
+
+[alt="Php"] {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+[alt="Jquery"] {
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+
+[alt="Photoshop"],
+[alt="After Effects"],
+[alt="Premiere Pro"] {
+  padding-top: 20px;
+}
+
+[alt="C#"] {
+  padding-top: 08px;
+}
+
+#inspiration-section {
+  padding: 20px;
+  background-color: #cccccc;
+}
+
+#project-section {
+  background-color: #737373;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+#contact-section {
+  background-color: #cccccc;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.icons {
+  font-size: 50px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.carousel-item:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.carousel-caption {
+  z-index: 1;
+  color: white;
+  text-shadow: 2px 2px rgba(0, 0, 0, .5);
+}
+
+#footer-section {
+  padding: 20px;
+  background-color: #262626;
+  text-align: center;
+  color: white;
+}
+
+.add {
+  font-size: 19px;
+  position: relative;
+  top: -25px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  background-color: #e6e6e6;
+  color: black;
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.modal-body p {
+  padding-top: 15px;
+}
+
+.modal-header {
+  text-align: center;
+}
+
+.modal-title {
+  text-align: center;
+}
+
+#skills-section h2 {
+  margin: 0;
+  padding: 0;
+}
+
+#mission-section h2 {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+#inspiration-section h2 {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+#contact-section h2 {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+#project-section h2 {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+#project-section img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+#clickOne {
+  position: relative;
+  top: -7px;
+  font-size: 20px;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+.logo-padding {
+  padding-top: 30px;
+}
+
+.email {
+  font-size: 15px;
+}
+
+#project-section h3 {
+  padding-top: 30px;
+}
+
+.project_sub {
+  font-size: 15px;
+}
+
+#project-section p {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.pr h3 {
+  padding-bottom: 20px;
+}
