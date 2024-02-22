@@ -281,3 +281,11 @@ h4 {
 .pr h3 {
   padding-bottom: 20px;
 }
+.modal-body img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
