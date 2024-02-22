@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -55,7 +56,7 @@
 
   <!-- Hero section -->
   <section id="hero-section">
-    <img src="img/me_glasses.jpg" alt="my pic">
+    <img src="img/markASU.jpg" alt="my pic">
     <div class="row">
       <h1>Mark Ramirez</h1>
       <p>markrramirez@msn.com</p>
@@ -226,9 +227,7 @@
         </div>
         <div class="col-md-6">
           <p>TK Photography - Project <br>(Semantic HTML and CSS)</p>
-          <a href="https://www.public.asu.edu/~mrrami22/GIT337/Photo-Gallery/" target="_blank">
-            <img src="img/tk_thumb.PNG" class="hoverproject" height="300" alt="TK photogallery project">
-          </a>
+            <img src="img/tk_thumb.PNG" class="hoverproject" data-bs-toggle="modal" data-bs-target="#exampleModal10" height="300" alt="TK photogallery project">
         </div>
         <!-- <div class="col-md-4">
             <p>Restaurant - Project</p>
@@ -500,6 +499,43 @@
         <div class="modal-body">
           <img src="img/cSharp.png" width="100px" alt="C#">
           <p>Used for programming to make sales like charging coffee per pound and have them shipped</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Photography -->
+  <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">TK Photography example work</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+              <div class="col-md-4">
+                <a href="https://marcoswillcode.github.io/portfolio/img/photo_wireframe.jpg" target="_blank">
+                  <img src="img/photo_wireframe.jpg" class="hoverproject" height="150" alt="TK photogallery wireframe">
+                </a>
+                <p>The Wireframe<br>(Hand drawn)</p>
+              </div>
+              <div class="col-md-4">
+                <a href="https://marcoswillcode.github.io/portfolio/img/photo_mockup.jpg" target="_blank">
+                  <img src="img/photo_mockup.jpg" class="hoverproject" height="150" alt="TK photogallery Mockup">
+                </a>
+                <p>Mockup <br>(Designed with Photoshop)</p>
+              </div>
+              <div class="col-md-4">
+                <a href="https://www.public.asu.edu/~mrrami22/GIT337/Photo-Gallery/" target="_blank">
+                  <img src="img/tk_thumb.PNG" class="hoverproject" height="150" alt="TK photogallery project">
+                </a>
+                <p>The example web page<br>School project</p>
+              </div>
+            </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
