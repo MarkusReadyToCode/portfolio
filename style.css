@@ -225,6 +225,8 @@ h4 {
 #skills-section h2 {
   margin: 0;
   padding: 0;
+  text-decoration: underline;
+  text-underline-offset: 8px;
 }
 
 #mission-section h2 {
