@@ -249,6 +249,10 @@ h4 {
   text-underline-offset: 8px;
 }
 
+#project-section p {
+  font-weight: bold;
+}
+
 #project-section img {
   margin-left: auto;
   margin-right: auto;
@@ -297,4 +301,8 @@ h4 {
   margin-top: 20px;
   margin-bottom: 20px;
   width: 100%;
+}
+
+.modal-header h1 {
+  text-align: center;
 }
