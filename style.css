@@ -77,7 +77,6 @@ h4 {
 }
 
 #mission-section img {
-  vertical-align: middle;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -95,18 +94,17 @@ h4 {
   padding-bottom: 50px;
 }
 
-#skills-section img {
-  vertical-align: middle;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  margin-top: 20px;
-  margin-bottom: 20px;
+#skills-section p {
+  text-align: center;
+  font-size: 20px;
+  margin: auto;
+  width: 70%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+  font-weight: bold;
+  margin-bottom: 25px;
 }
 
-#skills-section h5 {
-  color: black;
-}
 
 [alt="BootStrap"] {
   padding-top: 15px;
@@ -227,14 +225,10 @@ h4 {
   padding: 0;
   text-decoration: underline;
   text-underline-offset: 8px;
+  padding-bottom: 40px;
 }
 
 #mission-section h2 {
-  text-decoration: underline;
-  text-underline-offset: 8px;
-}
-
-#inspiration-section h2 {
   text-decoration: underline;
   text-underline-offset: 8px;
 }
@@ -305,4 +299,17 @@ h4 {
 
 .modal-header h1 {
   text-align: center;
+}
+
+#awards-section {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+#awards-section h2 {
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  padding-bottom: 40px;
 }
